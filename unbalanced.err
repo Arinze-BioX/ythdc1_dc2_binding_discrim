@@ -1,0 +1,42 @@
+randomForest 4.7-1.1
+Type rfNews() to see new features/changes/bug fixes.
+Loaded gbm 2.1.8.1
+Loading required package: ggplot2
+
+Attaching package: ‘ggplot2’
+
+The following object is masked from ‘package:randomForest’:
+
+    margin
+
+Loading required package: lattice
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ tibble  3.1.8      ✔ dplyr   1.0.10
+✔ tidyr   1.2.1      ✔ stringr 1.5.0 
+✔ readr   2.1.3      ✔ forcats 0.5.2 
+✔ purrr   1.0.1      
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::combine()  masks randomForest::combine()
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::lift()     masks caret::lift()
+✖ ggplot2::margin() masks randomForest::margin()
+
+Attaching package: ‘xgboost’
+
+The following object is masked from ‘package:dplyr’:
+
+    slice
+
+Loaded ROSE 0.0-4
+
+Type 'citation("pROC")' for a citation.
+
+Attaching package: ‘pROC’
+
+The following objects are masked from ‘package:stats’:
+
+    cov, smooth, var
+
+There were 31 warnings (use warnings() to see them)
+There were 31 warnings (use warnings() to see them)
